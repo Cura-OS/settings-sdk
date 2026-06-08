@@ -1,6 +1,6 @@
 {
   "name": "@curaos/settings-sdk",
-  "description": "CuraOS @curaos/settings-sdk — typed REST client + event wire-types generated from settings-service's TypeSpec + AsyncAPI contracts (ADR-0103 TypeSpec-first). Zero hand-written transport code.",
+  "description": "CuraOS @curaos/settings-sdk - typed REST client + event wire-types generated from settings-service's TypeSpec + AsyncAPI contracts (ADR-0103 TypeSpec-first). Zero hand-written transport code.",
   "version": "0.1.0",
   "dependencies": {
     "@hey-api/client-fetch": "0.13.1"

@@ -1,4 +1,4 @@
-// @curaos/settings-sdk — public surface.
+// @curaos/settings-sdk - public surface.
 //
 // Generated from settings-service's TypeSpec REST contract (specs/settings.tsp ->
 // OpenAPI 3.1 -> @hey-api/openapi-ts) and its AsyncAPI event contract

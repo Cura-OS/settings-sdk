@@ -29,7 +29,7 @@ export const settingsHealth = <ThrowOnError extends boolean = false>(options?: O
 export const settingsProtectedProbe = <ThrowOnError extends boolean = false>(options?: Options<SettingsProtectedProbeData, ThrowOnError>): RequestResult<SettingsProtectedProbeResponses, SettingsProtectedProbeErrors, ThrowOnError> => (options?.client ?? client).get<SettingsProtectedProbeResponses, SettingsProtectedProbeErrors, ThrowOnError>({ url: '/settings/protected', ...options });
 
 /**
- * Demonstration write — actor bound to the JWT principal.
+ * Demonstration write - actor bound to the JWT principal.
  */
 export const settingsProtectedWrite = <ThrowOnError extends boolean = false>(options: Options<SettingsProtectedWriteData, ThrowOnError>): RequestResult<SettingsProtectedWriteResponses, SettingsProtectedWriteErrors, ThrowOnError> => (options.client ?? client).post<SettingsProtectedWriteResponses, SettingsProtectedWriteErrors, ThrowOnError>({
     url: '/settings/protected-write',
